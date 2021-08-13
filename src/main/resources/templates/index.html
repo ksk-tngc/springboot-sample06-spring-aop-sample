@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" th:href="@{/webjars/bootstrap-icons/font/bootstrap-icons.css}">
+  <title>Spring AOP Sample</title>
+</head>
+
+<body class="bg-light">
+  <!-- コンテナ -->
+  <div class="container mt-5 text-center">
+    <!-- 見出し -->
+    <h1 class="display-6 mb-3">
+      <i class="bi bi-emoji-smile me-1"></i>HOME
+    </h1>
+    <!-- 本文 -->
+    <p class="fw-lighter">
+      Spring AOP のサンプルです。<br>
+      このページにアクセスすると、Spring AOP でコンソールにログが出力されます。
+    </p>
+  </div>
+
+  <!-- Bootstrap -->
+  <script th:src="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+
+</html>

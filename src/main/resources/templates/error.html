@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" th:href="@{/webjars/bootstrap-icons/font/bootstrap-icons.css}">
+  <title>Spring AOP Sample</title>
+</head>
+
+<body class="bg-light">
+  <!-- エラーメッセージ -->
+  <section class="text-center mt-5">
+    <p class="display-1" th:text="${status}"></p>
+    <p class="text-muted mb-4" th:text="${error}"></p>
+    <p class="text-muted">ページを表示できません</p>
+    <a th:href="@{/}">&larr; ホームに戻る</a>
+  </section>
+
+  <!-- Bootstrap -->
+  <script th:src="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+
+</html>
