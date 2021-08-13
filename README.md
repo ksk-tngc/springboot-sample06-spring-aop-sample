@@ -2,7 +2,7 @@
 
 Spring AOP のサンプルです。
 
-使用したアドバイス：
+使用したアドバイスの種類：
 * `@Before`, `@After`, `@AfterReturning`, `@Around`
 
 ## 画面
@@ -13,11 +13,11 @@ Spring AOP のサンプルです。
 
 <img width="1200" src="https://user-images.githubusercontent.com/59589496/129372282-80cf7ec2-af69-43d4-90d9-ab6eec132ea7.png">  
 
-<small>トップページにアクセスすると、アドバイス（AOP のタイミング）と、ポイントカット（AOP で割り込まれるメソッド）の情報がログ出力されます。</small>
+<small>トップページにアクセスすると、アドバイス（AOP されるタイミング）とポイントカット（AOP で割り込まれる対象メソッド）の情報がログ出力されます。</small>
 
 ## フォルダ構成
 
-<img width="300" src="https://user-images.githubusercontent.com/59589496/128973054-c838e43a-1d04-450a-aee9-8c146a032fd7.png">  
+<img width="300" src="https://user-images.githubusercontent.com/59589496/129373070-1de21721-e6ad-4fc8-9f21-f54cf3950426.png">  
 
 ## 依存関係
 
