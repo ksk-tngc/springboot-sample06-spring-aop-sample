@@ -7,7 +7,7 @@ Spring AOP のサンプルです。
 
 ## 画面
 
-<img width="700" src="https://user-images.githubusercontent.com/59589496/129371002-e054e0b7-c044-415e-b931-e858fb259138.png">  
+<img width="690" src="https://user-images.githubusercontent.com/59589496/129371002-e054e0b7-c044-415e-b931-e858fb259138.png">  
 
 ## コンソール
 
