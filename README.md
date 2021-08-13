@@ -3,6 +3,7 @@
 Spring AOP のサンプルです。
 
 使用したアドバイスの種類：
+<small>トップページにアクセスすると、アドバイス（AOP されるタイミング）とポイントカット（AOP で割り込まれる対象メソッド）の情報がログ出力されます。</small>
 * `@Before`, `@After`, `@AfterReturning`, `@Around`
 
 ## 画面
@@ -11,9 +12,9 @@ Spring AOP のサンプルです。
 
 ## コンソール
 
-<img width="1200" src="https://user-images.githubusercontent.com/59589496/129372282-80cf7ec2-af69-43d4-90d9-ab6eec132ea7.png">  
+<small>トップページにアクセスすると、アドバイス（AOP されるタイミング）とポイントカット（AOP で割り込まれる対象メソッド）の情報がログ出力されます。</small>  
 
-<small>トップページにアクセスすると、アドバイス（AOP されるタイミング）とポイントカット（AOP で割り込まれる対象メソッド）の情報がログ出力されます。</small>
+<img width="1200" src="https://user-images.githubusercontent.com/59589496/129372282-80cf7ec2-af69-43d4-90d9-ab6eec132ea7.png">  
 
 ## フォルダ構成
 
